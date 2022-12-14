@@ -15,7 +15,7 @@ class FirstPage extends StatelessWidget {
         children: [
           Image.asset("assets/2-2.jpg",fit: BoxFit.cover,),
           buildTitle(),
-          Text("descriptio"),
+          Text("เกาะหลีเป๊ะ หรือ เกาะลีเป๊ะ เป็นเกาะกลางทะเลอยู่ในเขตตำบลเกาะสาหร่าย อำเภอเมืองสตูล จังหวัดสตูล เขตอำนาจการควบคุมของอุทยานแห่งชาติหมู่เกาะตะรุเตาในจังหวัดสตูล เป็นชายหาดบนเกาะที่อุดมไปด้วยท้องทะเลที่สดใสสะอาด สวยงาม เป็นเกาะที่เงียบสงบ"),
         ],
       ), 
     );
@@ -31,7 +31,7 @@ class FirstPage extends StatelessWidget {
                 Text("เมืองสตูล จ.สตูล")
               ],
             ),
-            Icon(Icons.star,color: Colors.pink),
+            Icon(Icons.star,color: Colors.yellow),
             Text("4.8")
           ],
         );
